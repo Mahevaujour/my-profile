@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - Mahé Vaujour</title>
+    <meta name="description" content="Profil de Mahé Vaujour, étudiant à la recherche d’un stage d’ouverture professionnelle et sociale.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <section class="profile" aria-labelledby="profile-title">
+                <img src="profile.jpg" alt="Photo de Mahé Vaujour" class="profile-pic">
+                <h1 id="profile-title">Mahé Vaujour</h1>
+                <p>Looking for an internship</p>
+            </section>
+            <nav aria-label="Navigation principale">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#compétences">Skills</a></li>
+                    <li><a href="#experience">Experiences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2>About me</h2>
+        <p>Currently, I am pursuing the Grande Ecole Program at IÉSEG School of Management, and I expect to graduate in 2029. Alongside, I am a tutor at Parkours, freshly embarked on this journey in September 2024, where I guide groups of scholars in their studies . Furthermore, I am volunteering in the Order of Malta where I am a first responder but also head of communication and head of logistic. My core of competencies include education, social media communications, and first aid, backed by certifications in English and emergency procedures.</p>
+    </section>
+
+    <section id="compétences" class="section">
+        <h2>Skills</h2>
+        <div class="competences-item">
+            <h3>Anglais</h3>
+            <p>I went 6 months in exhange at Wellington School, a boarding school near Bristol. There I perfected my English skills, allowing me to take the Cambridge C1 exam and the IELTS UKVI, passing both.</p>
+        </div>
+        <div class="competences-item">
+            <h3>Russian</h3>
+            <p>From 2011 to 2017, I was an expatriate in Moscow, Russia. Thanks to this I learned Russian, mastering it perfectly. Back to France, I continued it as a second language, allowing me to have a great level.</p>
+        </div>
+        <div class="competences-item">
+            <h3>IT</h3>
+            <p>During high school, I took part in the 'Pix' project, an initiative launched by the Ministry of Education that aims to teach students the basics of computer science. The course covered everything from mastering the Office suite to understanding malware and modern hacking techniques </p>
+        </div>
+    </section>
+    <section id="experience" class="section">
+        <h2>Experiences</h2>
+        <div class="experience-item">
+            <h3>Tuteur Parkours</h3>
+            <p>Since September 2024 - In this position, I help youngsters in their homeworks, alongside my studies.</p>
+        </div>
+        <div class="experience-item">
+            <h3>First responder volunteer - Ordre de Malte France</h3>
+            <p>Since October 2022 - As a first responder I take part in several actions such as reinforcement to the "SAMU de Paris" or the firefighters of Paris. Also we are engaged in first aid dispositives such as the Olympic Games.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Head of Communication - Ordre de Malte France</h3>
+            <p>Since may 2023 - As head of communication, I am in charge of exterior communication, going through social media such as Instagram or Facebook.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Head of Logistic - Ordre de Malte France</h3>
+            <p>Since may 2023 - As head of logistic, I am in charge of emergency equipment. In this position I have to do monthly inventory and determine the needs formy group, then present a budget every month to the board.</p>
+        </div>
+        <div class="experience-item">
+            <h3>Boy scout</h3>
+            <p>2012-2023 - I served for 11 years as a boy scout, and my last year I took the responsability of a team of 7 boys. I was in charge of creating activities for them but most of all I was responsible for them in front of their parents and my chiefs.  </p>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="post" aria-label="Formulaire de contact">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required aria-required="true">
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required aria-required="true">
+
+            <label for="phone">Numéro de téléphone :</label>
+            <input type="tel" id="phone" name="phone" required aria-required="true">
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+
+        <div class="contact-info">
+            <p>Email : <a href="mailto:mahe.vaujour@ieseg.fr">mahe.vaujour@ieseg.fr</a></p>
+            <p>Phone : <a href="tel:+33768637734">07 68 63 77 34</a></p>
+            <p>LinkedIn : <a href="https://www.linkedin.com/in/mah%C3%A9-vaujour-9679b22b4/" target="_blank">Mon profil LinkedIn</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mahé Vaujour</p>
+    </footer>
+</body>
+</html>
